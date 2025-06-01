@@ -1,0 +1,19 @@
+[project]
+name = "goit-pythonweb-hw-06"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "maksar24",email = "74876375+maksar24@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "goit_pythonweb_hw_06", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
